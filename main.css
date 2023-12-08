@@ -1,0 +1,45 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.carousel-inner .carousel-item,
+img {
+    max-height: 500px;
+    height: 100%;
+
+}
+
+header {
+    background-color: rgb(255, 85, 0);
+
+
+}
+
+.fenix {
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Racing Sans One', sans-serif;
+}
+h2{
+    border-bottom: 2px solid rgb(255, 85, 0);
+}
+
+.nav-item .nav-link.active {
+    background-color: #fff;
+    color: rgb(255, 85, 0);
+}
+
+h1,
+.nav-link {
+    color: #fff;
+}
+.offcanvas-body{
+    background-color:  rgb(255, 85, 0);
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
