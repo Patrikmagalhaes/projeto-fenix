@@ -3,78 +3,140 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
+
 @font-face {
     font-family: 'blazed';
     src: url('./blazed/Blazed.ttf') format('truetype');
 }
+
 .carousel-inner .carousel-item,
 img {
     max-height: 500px;
     height: 100%;
 
 }
+
 header,
 .offcanvas-body {
     background-color: rgb(0, 0, 0);
 
 }
+
 .fenix {
     width: 100%;
 }
+
 .nav-item .nav-link.active {
     background-color: #000000;
     border: 1px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
+
 .nav-item .nav-link:hover {
     background-color: #000000;
     border: 1px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
+
 h1 {
     font-family: 'blazed', sans-serif;
     color: rgb(255, 72, 0);
 }
-h2{
-    border-bottom: 2px solid rgb(0, 0, 0);
+
+h2 {
+    border-bottom: 2px solid rgb(255, 94, 0);
     font-weight: bold;
 }
-.linha{
+
+.linha {
     border-bottom: 1px solid rgb(255, 0, 0);
     border-top: 1px solid rgb(255, 0, 0);
 }
+
 .nav-link {
     color: rgb(255, 0, 0);
     font-weight: 100;
     font-weight: bold;
 }
+
 ul {
     list-style: none;
     padding: 0px;
 }
+
 #sobre .row-cols-1 .p-5>h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .color-test {
     font-weight: bold;
     color: #ffffff;
 }
+
 .color {
     background-color: #000000;
 }
-section h2, aside h2{
-    color: rgb(255, 72, 0);
+
+section h2,
+aside h2 {
+    color: rgb(255, 255, 255);
 }
-p{
+
+p {
     font-size: large;
     color: #ffffff;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
 }
-.container-lg{
+
+.container-lg {
     background-color: #000000;
 }
-.card-body{
-    background-color: rgb(255, 72, 0)
+
+.card-body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer>div,
+footer>p {
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(255, 72, 0);
+    border-color: red;
+}
+
+cite {
+    font-size: small;
 }
 
 
+.bg-titulo {
+    background-color: rgb(255, 72, 0);
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+}
+
+h4 {
+    border: 1px solid rgb(255, 72, 0);
+    text-align: center;
+    padding: 1%;
+}
+h5,h4{
+    color: rgb(255, 72, 0);
+    font-size: 1.7em;
+}
+h5{
+    font-size: 1.4em;
+}
