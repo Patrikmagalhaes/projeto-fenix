@@ -46,9 +46,13 @@ h1 {
     color: rgb(255, 72, 0);
 }
 
-h2 {
-    border-bottom: 2px solid rgb(255, 94, 0);
+article h2 {
+background-color: #000000;
     font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+
 }
 
 .linha {
@@ -90,16 +94,22 @@ p {
     color: #ffffff;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
 
 }
 
-.container-lg {
-    background-color: #000000;
-}
+
 
 .card-body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 72, 0);
     color: #ffffff;
+
+}
+
+.card {
+    border: none;
 }
 
 a {
@@ -122,10 +132,18 @@ cite {
 
 
 .bg-titulo {
-    background-color: rgb(255, 72, 0);
-    color: #ffffff;
+    border: 1px solid rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
     padding: 1%;
     text-align: center;
+}
+
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
 }
 
 h4 {
@@ -133,10 +151,16 @@ h4 {
     text-align: center;
     padding: 1%;
 }
-h5,h4{
+
+h5,
+h4 {
     color: rgb(255, 72, 0);
     font-size: 1.7em;
 }
-h5{
+
+h5 {
     font-size: 1.4em;
+}
+h2{
+    font-size: 40px;
 }
