@@ -7,9 +7,13 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'blazed';
-    src: url('./blazed/Blazed.ttf') format('truetype');
+    src: url('../fontes/blazed/Blazed.ttf') format('truetype');
 }
 
 .carousel-inner .carousel-item,
@@ -181,11 +185,21 @@ article h4 {
 
 .sticky {
     position: fixed;
-    right: 0;
-    top: 90%;
+    right: 5%;
+    top: 80%;
     z-index: 1;
-  
 }
-.sticky > p{
-    background-color: #000000;
+
+.off {
+    display: none;
+}
+
+#seta {
+    color: #000000;
+    font-size: 50px;
+}
+.scrollBar{
+    background-color: rgb(255, 72, 0);
+    height: 10px;
+    width: 0%;
 }
