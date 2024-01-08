@@ -1,8 +1,8 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const btnSubir = document.getElementById('btn-subir')
-    const cabecalho = document.getElementById('inicio')
+    const inicio = document.getElementById('inicio')
     const seta = document.getElementById('seta')
+    const header = document.getElementById('cabecalho')
 
     let direcao = 0
     window.addEventListener("scroll", function () {
@@ -14,15 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function ScrollTop() {
             btnSubir.addEventListener('click', function () {
-                cabecalho.scrollIntoView()
+                inicio.scrollIntoView()
             })
         }
         if (scrollY < direcao) {
             ScrollTop()
             seta.classList.remove('off')
+            header.classList.remove('off')
         }
         else {
             seta.classList.add('off')
+            header.classList.add('off')
         }
         direcao = scrollY
     })
