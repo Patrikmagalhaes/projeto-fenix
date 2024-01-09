@@ -232,3 +232,27 @@ article h4 {
 img{
     max-width: 100%;
 }
+.apoiar{
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    font-size: 1.3em;
+    background-color:  rgba(0, 0, 0, 0.873) ;
+    color:  rgba(255, 78, 8, 0.873);
+    border-color:  rgba(255, 78, 8, 0.873);
+    font-weight:bold ;
+    
+}
+.apoiar:hover{
+    background-color:  rgba(255, 78, 8, 0.873) ;
+    color:  rgb(236, 236, 236);
+    border-color:  rgba(255, 78, 8, 0.873);
+    font-weight:bold ;
+}
+
+.div-apoiar{
+    display: flex;
+    justify-content: center;
+}
+

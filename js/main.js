@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 inicio.scrollIntoView()
             })
         }
-        if (scrollY < direcao) {
+        if (scrollY <= direcao) {
             ScrollTop()
             seta.classList.remove('off')
             header.classList.remove('off')
