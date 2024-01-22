@@ -26,7 +26,6 @@ img {
 header,
 .offcanvas-body {
     background-color: rgb(0, 0, 0);
-
 }
 
 .fenix {
@@ -39,12 +38,10 @@ header,
     color: rgb(255, 0, 0);
 }
 
-
 #nav-principal .nav-item .nav-link:hover {
     border: 1px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
-
 
 #nav-secundaria{
     background-color: #000000;
@@ -70,9 +67,7 @@ article h2 {
     text-align: center;
     padding: 20px;
     font-size: 40px;
-
 }
-
 
 #nav-principal .nav-link {
     color: rgb(255, 0, 0);
@@ -115,10 +110,7 @@ p {
     background-color: rgb(255, 72, 0);
     padding: 10px;
     border-radius: 10px;
-
 }
-
-
 
 .card-body {
     background-color: rgb(255, 72, 0);
@@ -148,7 +140,6 @@ cite {
     font-size: small;
 }
 
-
 .bg-tituo {
     border: 1px solid rgb(255, 72, 0);
     color: rgb(255, 72, 0);
@@ -168,7 +159,6 @@ h4 {
     text-align: center;
     padding: 1%;
     font-size: 2em;
-
 }
 
 h5,
@@ -242,7 +232,6 @@ img{
     color:  rgba(255, 78, 8, 0.873);
     border-color:  rgba(255, 78, 8, 0.873);
     font-weight:bold ;
-    
 }
 .apoiar:hover{
     background-color:  rgba(255, 78, 8, 0.873) ;
@@ -255,4 +244,3 @@ img{
     display: flex;
     justify-content: center;
 }
-
