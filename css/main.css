@@ -255,12 +255,7 @@ img {
     display: flex;
     justify-content: center;
 }
-
-#email {
-    resize: none;
-    border: none;
-    color: #ffffff;
-    background-color: transparent;
-    max-height: 50px;
-    max-width: 50%;
+#contato ul{
+    max-width: 500px;
+    width: 100%;
 }
