@@ -43,19 +43,23 @@ header,
     color: rgb(255, 0, 0);
 }
 
-#nav-secundaria{
+#nav-secundaria {
     background-color: #000000;
 }
-#nav-secundaria .nav-item .nav-link{
-    color: rgb(255, 0, 0) ;
+
+#nav-secundaria .nav-item .nav-link {
+    color: rgb(255, 0, 0);
 }
+
 #nav-secundaria .nav-item .nav-link:hover {
     border-bottom: 1px solid rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
+
 .nav-item .nav-link:hover {
     color: rgb(0, 0, 0);
 }
+
 h1 {
     font-family: 'blazed', sans-serif;
     color: rgb(255, 72, 0);
@@ -74,11 +78,13 @@ article h2 {
     font-weight: 100;
     font-weight: bold;
 }
+
 .nav-link {
     color: rgb(0, 0, 0);
     font-weight: 100;
     font-weight: bold;
 }
+
 ul {
     list-style: none;
     padding: 0px;
@@ -206,41 +212,55 @@ article h4 {
     color: #000000;
     font-size: 50px;
 }
-.scrollBar{
+
+.scrollBar {
     background-color: rgb(255, 72, 0);
     height: 10px;
     width: 0%;
 }
-.offcanvas-header{
+
+.offcanvas-header {
     background-color: rgb(255, 72, 0);
 }
-.offcanvas-header h5{
+
+.offcanvas-header h5 {
     border: none;
     color: #000000;
 }
 
-img{
+img {
     max-width: 100%;
 }
-.apoiar{
+
+.apoiar {
     padding: 10px;
     width: 100%;
     max-width: 400px;
     margin: 10px;
     font-size: 1.3em;
-    background-color:  rgba(0, 0, 0, 0.873) ;
-    color:  rgba(255, 78, 8, 0.873);
-    border-color:  rgba(255, 78, 8, 0.873);
-    font-weight:bold ;
-}
-.apoiar:hover{
-    background-color:  rgba(255, 78, 8, 0.873) ;
-    color:  rgb(236, 236, 236);
-    border-color:  rgba(255, 78, 8, 0.873);
-    font-weight:bold ;
+    background-color: rgba(0, 0, 0, 0.873);
+    color: rgba(255, 78, 8, 0.873);
+    border-color: rgba(255, 78, 8, 0.873);
+    font-weight: bold;
 }
 
-.div-apoiar{
+.apoiar:hover {
+    background-color: rgba(255, 78, 8, 0.873);
+    color: rgb(236, 236, 236);
+    border-color: rgba(255, 78, 8, 0.873);
+    font-weight: bold;
+}
+
+.div-apoiar {
     display: flex;
     justify-content: center;
+}
+
+#email {
+    resize: none;
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    max-height: 50px;
+    max-width: 50%;
 }

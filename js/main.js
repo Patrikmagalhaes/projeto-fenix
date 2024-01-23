@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnSubir = document.getElementById('btn-subir')
     const inicio = document.getElementById('inicio')
     const seta = document.getElementById('seta')
+    const btnCopiar = document.getElementById('copiar')
+    const email = document.getElementById('email')
 
     let direcao = 0
     window.addEventListener("scroll", function () {
@@ -16,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 inicio.scrollIntoView()
             })
         }
+
         if (scrollY <= direcao) {
             ScrollTop()
             seta.classList.remove('off')
@@ -25,4 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         direcao = scrollY
     })
+
+    btnCopiar.addEventListener('click', function () {
+        let range = document.createRange()
+        range.selectNode(email)
+        window.getSelection().removeAllRanges
+        window.getSelection().addRange(range)
+
+        document.execCommand("copy")
+    })
+
 })
