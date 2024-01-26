@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 72, 0);
+    background-color: #DB3C00;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     color: #ffffff;
@@ -113,7 +113,7 @@ p {
     color: #ffffff;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 72, 0);
+    background-color:#DB3C00 ;
     padding: 10px;
     border-radius: 10px;
 }
@@ -259,3 +259,10 @@ img {
     max-width: 500px;
     width: 100%;
 }
+textarea{
+    resize: none;
+}
+#contato > article > h2{
+    color: #DB3C00;
+}
+
