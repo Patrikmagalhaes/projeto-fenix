@@ -34,13 +34,13 @@ header {
 
 #nav-principal .nav-item .nav-link.active {
     background-color: #000000;
-    border: 1px solid rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 72, 0);
+    color:rgb(255, 72, 0);
 }
 
 #nav-principal .nav-item .nav-link:hover {
-    border: 1px solid rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
 }
 
 #nav-secundaria {
@@ -48,12 +48,12 @@ header {
 }
 
 #nav-secundaria .nav-item .nav-link {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 72, 0);
 }
 
 #nav-secundaria .nav-item .nav-link:hover {
-    border-bottom: 1px solid rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
 }
 
 .nav-item .nav-link:hover {
@@ -75,7 +75,7 @@ article h2 {
 }
 
 #nav-principal .nav-link {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 72, 0);
     font-weight: 100;
     font-weight: bold;
 }
@@ -139,9 +139,11 @@ footer>p {
 
 .navbar-toggler-icon {
     background-color: rgb(255, 72, 0);
-    border-color: red;
+    border-color: rgb(255, 72, 0);
 }
-
+.navbar-toggler{
+    background-color: rgb(255, 72, 0);
+}
 cite {
     font-size: small;
 }
